@@ -4,6 +4,6 @@
   <img src="DisplayIMG/Cartoon.png" alt="Image Description" />
 </div>
 
-![Image Description](DisplayIMG/HW.png)
+<!--  ![Image Description](DisplayIMG/HW.png) -->
 
 # Capstone
