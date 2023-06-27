@@ -1,4 +1,5 @@
-![Image Description](DisplayIMG/Cartoon.png)
+<!-- ![Image Description](DisplayIMG/Cartoon.png) -->
+
 <div align="center">
   <img src="DisplayIMG/Cartoon.png" alt="Image Description" />
 </div>
