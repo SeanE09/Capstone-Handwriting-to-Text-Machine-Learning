@@ -52,11 +52,11 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
   <img src="DisplayIMG/i_model.png" alt="Image Description" />
 </div>
 
-#  
+##  
 
 ## Speak to model (show image of model structure)
 
-# 
+## 
 <div align="center">
   <img src="DisplayIMG/Model_Plot.png" alt="Image Description" />
 </div>
