@@ -46,13 +46,17 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
   - zoom_range=0.1: Applying a zoom transformation with a zoom range of 10%
   - horizontal_flip=False: Passed on applying horizontal flip for reasons mentionend in 'rotation_range'
   - vertical_flip=False: Passed on applying vertical flip for reasons mentionend in 'rotation_range'
+# 
 
-## Speak to model (show image of model structure)
 <div align="center">
   <img src="DisplayIMG/i_model.png" alt="Image Description" />
 </div>
 
+#  
 
+## Speak to model (show image of model structure)
+
+# 
 <div align="center">
   <img src="DisplayIMG/Model_Plot.png" alt="Image Description" />
 </div>
@@ -254,6 +258,7 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
   - y-py==0.5.9
   - yarl==1.8.1
   - ypy-websocket==0.8.2
+
 
 
   <div align="center">
