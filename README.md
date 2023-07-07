@@ -37,8 +37,20 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
 
 - The code loads images from a specified folder, preprocesses them by converting to grayscale, resizing, and normalizing the pixel values. It also encodes the labels into numerical and one-hot encoded representations, preparing the data for further machine learning.
 
-
 # Explain Data augmentation
+
+- train_test_split: Randomly splits data leaving 20% for later testing. random_state set to 42 for reproducibility
+
+- ImageDataGenerator from the Keras library
+
+  - rotation_range=35: Rotating images randomly by 35% degrees. Limiting at 35% degrees so that a number or letter does not end up looking like a different number/letter. For example, an upside down 6 is a 9.
+  - width_shift_range=0.1:  Shifts images horizontally by 10% of the width
+  - height_shift_range=0.1: Shifts images vertically by 10% of the height
+  - shear_range=0.0: Plan to look into shear more as some can replicate handwritting styles but too much could create something outside normal handwriting styles.
+  - zoom_range=0.1: Applying a zoom transformation with a zoom range of 10%
+  - horizontal_flip=False: Passed on applying horizontal flip for reasons mentionend in 'rotation_range'
+  - vertical_flip=False: Passed on applying horizontal flip for reasons mentionend in 'rotation_range'
+
 
 # Speak to model (show image of model structure)
 
