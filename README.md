@@ -1,3 +1,5 @@
+# Handwriting to Text - Machine Learning
+
 <!-- ![Image Description](DisplayIMG/Cartoon.png) -->
 
 <div align="center">
@@ -6,9 +8,19 @@
 
 <!--  ![Image Description](DisplayIMG/HW.png) -->
 
-# Capstone
+### Contributors
+* Sean Evans <https://www.linkedin.com/in/sean-evans/>
 
-# Handwriting to Text - Machine Learning
+## Business Understanding
+We were tasked with building a Neural Network model for the purposes of recognizing handwritten letters/number and converting them to text. 
+
+## Business Applications
+1. The post office
+2. Converting historical medical records over to text files for record keeping and future meta-analysis
+3. Historical Censes and government records for record keeping and future meta-analysis
+4. Handwriting software for taken handwritten notes and converting them to a text file of notes
+
+
 
 # Overview of Project
 - This project uses Machine Learning to process and analyze images. The purpose of this project is to {brief description of what the project does or aims to achieve}.
