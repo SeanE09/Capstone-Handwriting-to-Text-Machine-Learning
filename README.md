@@ -256,4 +256,6 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
   - ypy-websocket==0.8.2
 
 
-  
+  <div align="center">
+  <img src="DisplayIMG/Data_Lung.png" alt="Image Description" />
+</div>
