@@ -27,7 +27,7 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
   - Images Details: img00#-00#.png, Width: 1200px, Height: 900px
 - Labels File: labels/english.csv (71.62 kB)
 
-# Explain Helper Function and reasoning
+# Helper Function and reasoning
 
 - Loading Function: This function takes the folder containing the images and the file with each images corresponding 'target' label. It loads the images from the location, converts them to grayscale, resizes them to a size of 64x64 pixels, and appends them to the images list with their label. Returning the images and labels lists. 
   - Uses LabelEncoder to convert categorical labels into numerical labels.
@@ -37,7 +37,7 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
 
 - The code loads images from a specified folder, preprocesses them by converting to grayscale, resizing, and normalizing the pixel values. It also encodes the labels into numerical and one-hot encoded representations, preparing the data for further machine learning.
 
-# Explain Data augmentation
+# Data augmentation
 
 - train_test_split: Randomly splits data leaving 20% for later testing. random_state set to 42 for reproducibility
 
@@ -53,6 +53,11 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
 
 
 # Speak to model (show image of model structure)
+
+<div align="center">
+  <img src="DisplayIMG/i_model.png" alt="Image Description" />
+</div>
+
 
 
 
