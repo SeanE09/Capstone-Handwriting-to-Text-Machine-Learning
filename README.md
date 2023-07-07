@@ -20,15 +20,14 @@ We were tasked with building a Neural Network model for the purposes of recogniz
 3. Historical Censes and government records for record keeping and future meta-analysis
 4. Handwriting software for taken handwritten notes and converting them to a text file of notes
 
-# Training Data
+## Training Data
 https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-dataset
 
 - Image LocationL Img/.png files (3410 files)
   - Images Details: img00#-00#.png, Width: 1200px, Height: 900px
 - Labels File: labels/english.csv (71.62 kB)
 
-# Helper Function and reasoning
-
+## Helper Function and Reasoning
 - Loading Function: This function takes the folder containing the images and the file with each images corresponding 'target' label. It loads the images from the location, converts them to grayscale, resizes them to a size of 64x64 pixels, and appends them to the images list with their label. Returning the images and labels lists. 
   - Uses LabelEncoder to convert categorical labels into numerical labels.
   - (images - mean) / std: Normalizes the pixel values of the images array by subtracting the mean and dividing by the standard deviation. 
@@ -37,12 +36,9 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
 
 - The code loads images from a specified folder, preprocesses them by converting to grayscale, resizing, and normalizing the pixel values. It also encodes the labels into numerical and one-hot encoded representations, preparing the data for further machine learning.
 
-# Data augmentation
-
+## Data Augmentation
 - train_test_split: Randomly splits data leaving 20% for later testing. random_state set to 42 for reproducibility
-
-- ImageDataGenerator from the Keras library
-
+- ImageDataGenerator from the Keras library;
   - rotation_range=35: Rotating images randomly by 35% degrees. Limiting at 35% degrees so that a number or letter does not end up looking like a different number/letter. For example, an upside down 6 is a 9.
   - width_shift_range=0.1:  Shifts images horizontally by 10% of the width
   - height_shift_range=0.1: Shifts images vertically by 10% of the height
@@ -51,9 +47,7 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
   - horizontal_flip=False: Passed on applying horizontal flip for reasons mentionend in 'rotation_range'
   - vertical_flip=False: Passed on applying vertical flip for reasons mentionend in 'rotation_range'
 
-
-# Speak to model (show image of model structure)
-
+## Speak to model (show image of model structure)
 <div align="center">
   <img src="DisplayIMG/i_model.png" alt="Image Description" />
 </div>
@@ -63,10 +57,7 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
   <img src="DisplayIMG/Model_Plot.png" alt="Image Description" />
 </div>
 
-
-
-
-# Python and module versions
+## Python and module versions
 - Python: 3.10.11 | packaged by Anaconda, Inc. |
   - babel==2.11.0
   - bottleneck==1.3.5
