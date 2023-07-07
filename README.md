@@ -23,14 +23,20 @@ We were tasked with building a Neural Network model for the purposes of recogniz
 # Training Data
 https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-dataset
 
-- Img/png files (3410 files)
-  - Image: img001-001.png, Width: 1200px, Height: 900px
-- labels/english.csv (71.62 kB)
-
-
-
+- Image LocationL Img/.png files (3410 files)
+  - Images Details: img00#-00#.png, Width: 1200px, Height: 900px
+- Labels File: labels/english.csv (71.62 kB)
 
 # Explain Helper Function and reasoning
+
+- Loading Function: This function takes the folder containing the images and the file with each images corresponding 'target' label. It loads the images from the location, converts them to grayscale, resizes them to a size of 64x64 pixels, and appends them to the images list with their label. Returning the images and labels lists. 
+  - Uses LabelEncoder to convert categorical labels into numerical labels.
+  - (images - mean) / std: Normalizes the pixel values of the images array by subtracting the mean and dividing by the standard deviation. 
+  * This normalization step is commonly performed in machine learning to ensure that the input data has a similar scale, which can improve the performance of models.
+  - encoded_labels = to_categorical(numerical_labels): This line applies the to_categorical function to the numerical_labels array. This converts the numerical labels into a one-hot encoded representation, which is a binary vector where each element corresponds to a unique label and has a value of 1 if the sample belongs to that class, and 0 otherwise.
+
+- The code loads images from a specified folder, preprocesses them by converting to grayscale, resizing, and normalizing the pixel values. It also encodes the labels into numerical and one-hot encoded representations, preparing the data for further machine learning.
+
 
 # Explain Data augmentation
 
