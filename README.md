@@ -59,7 +59,9 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
 </div>
 
 
-
+<div align="center">
+  <img src="DisplayIMG/Model_Plot.png" alt="Image Description" />
+</div>
 
 
 
