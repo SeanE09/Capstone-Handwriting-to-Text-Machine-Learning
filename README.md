@@ -15,17 +15,20 @@
 We were tasked with building a Neural Network model for the purposes of recognizing handwritten letters/number and converting them to text. 
 
 ## Business Applications
-1. The post office
+1. The post office - helping to identify the handwritten addresses on mail items
 2. Converting historical medical records over to text files for record keeping and future meta-analysis
 3. Historical Censes and government records for record keeping and future meta-analysis
 4. Handwriting software for taken handwritten notes and converting them to a text file of notes
 
+# Training Data
+https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-dataset
+
+- Img/png files (3410 files)
+  - Image: img001-001.png, Width: 1200px, Height: 900px
+- labels/english.csv (71.62 kB)
 
 
-# Overview of Project
-- This project uses Machine Learning to process and analyze images. The purpose of this project is to {brief description of what the project does or aims to achieve}.
 
-# Data and cleaning
 
 # Explain Helper Function and reasoning
 
