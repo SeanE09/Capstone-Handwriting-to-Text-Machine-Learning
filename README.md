@@ -8,6 +8,9 @@
 
 <!--  ![Image Description](DisplayIMG/HW.png) -->
 
+### Presentation
+https://docs.google.com/presentation/d/1oVR_5n-sLKSudW5DLdqL-vmx-4vkkrL3hRPnvSN9e4k/edit#slide=id.gdcb566e1d5_0_62
+
 ### Contributors
 * Sean Evans <https://www.linkedin.com/in/sean-evans/>
 
