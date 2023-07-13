@@ -82,6 +82,7 @@ The architecture of this Convolutional Neural Network (CNN) Model, with two bloc
 
 Other architectures have been proposed that build on these common structures adding additional components, such as skip connections (ResNet), inception modules (InceptionNet), and depthwise separable convolutions (MobileNet). However, the basic structure of convolutional layers followed by pooling layers and ending in fully connected layers remains a staple in the field of Convolutional Neural Networks.
 
+#### Image of Model Architecture
 
 ## 
 <div align="center">
