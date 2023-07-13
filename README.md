@@ -56,7 +56,7 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
 
 ## Model Description
 
-### Convolutional and pooling layers:
+### Convolutional and Pooling Layers:
 First uses two blocks of Conv2D layers followed by a BatchNormalization layer, a MaxPooling2D layer, and a Dropout layer.
 
 Conv2D layers are extracting features from the input images by sliding a convolution filter over the input to produce a feature map. 
@@ -67,7 +67,7 @@ The MaxPooling2D layers are used to reduce the spatial dimensions (width, height
 
 Dropout layers are used as a type of regularization to prevent overfitting. These will randomly sets a fraction of input units to 0 during training. This helps to prevent overfitting and reduces the overreliance on a single learned feature. A dropout rate of 10% is used here.
 
-### Fully connected layers:
+### Fully Connected Layers:
 After the convolutional/pooling layers, the model flattens the tensor output into a vector to prepare it for the fully connected layer.
 The first Dense layer has 512 units with the ReLU activation function.
 This is followed by another BatchNormalization layer and a Dropout layer, with the same dropout rate of 10% as was used before.
