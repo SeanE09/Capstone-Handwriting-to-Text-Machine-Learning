@@ -74,7 +74,7 @@ The final Dense layer has a number of units equal to the number of classes (len(
 
 The architecture of this Convolutional Neural Network (CNN) Model, with two blocks of Conv2D, BatchNormalization, and MaxPooling2D layers, followed by two Dense layers, is a common choice and is similar to and influenced by the design of early successful Convolutional Neural Networks such as the LeNet-5, AlexNet, VGGNet, and others. The common pattern followed by these networks is a series of convolutional layers followed by pooling layers, and finally one or more fully connected layers.
 
--	LeNet-5: This is one of the earliest convolutional neural networks. It was primarily used for digit recognition tasks such as reading zip codes, digits,etc.
+-	LeNet-5: This is one of the earliest convolutional neural networks. It was primarily used for digit recognition tasks such as reading zip.
 
 -	AlexNet: AlexNet was used in the ImageNet Large-Scale Visual Recognition Challenge in 2012. It significantly outperformed all the prior competitors and brought a breakthrough in the field of Computer Vision.
 
@@ -82,8 +82,8 @@ The architecture of this Convolutional Neural Network (CNN) Model, with two bloc
 
 Other architectures have been proposed that build on these common structures adding additional components, such as skip connections (ResNet), inception modules (InceptionNet), and depthwise separable convolutions (MobileNet). However, the basic structure of convolutional layers followed by pooling layers and ending in fully connected layers remains a staple in the field of Convolutional Neural Networks.
 
-#### Image of Model Architecture
-
+### Image of Model Architecture
+### Image of Model Architecture
 ## 
 <div align="center">
   <img src="DisplayIMG/Model_Plot.png" alt="Image Description" />
