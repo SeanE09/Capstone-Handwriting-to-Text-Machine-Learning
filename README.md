@@ -90,7 +90,7 @@ Other architectures have been proposed that build on these common structures add
   <img src="DisplayIMG/Model_Plot.png" alt="Image Description" />
 </div>
 
-## Python and module versions
+## Python and Module Versions
 - Python: 3.10.11 | packaged by Anaconda, Inc. |
   - babel==2.11.0
   - bottleneck==1.3.5
