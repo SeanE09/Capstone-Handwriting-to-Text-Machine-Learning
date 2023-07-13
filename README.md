@@ -59,9 +59,13 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
 
 ### Convolutional and pooling layers:
 First uses two blocks of Conv2D layers followed by a BatchNormalization layer, a MaxPooling2D layer, and a Dropout layer.
-Conv2D layers are extracting features from the input images by sliding a convolution filter over the input to produce a feature map. This starts with 32 filters on the first block with a size of 3x3. The number of filters is doubled to 64 on the second block.
+
+Conv2D layers are extracting features from the input images by sliding a convolution filter over the input to produce a feature map. 
+
 The BatchNormalization layers are used to accelerate the learning speed and stabilize the training process. By normalizing the input layer via adjusting and scaling the activations, each layer of a network can learn by itself and act a little more independently of the other layers.
+
 The MaxPooling2D layers are used to reduce the spatial dimensions (width, height) of the input image for the next convolutional layer in the network. A pool size of 2x2 is used to down sample the input by half its width and height.
+
 Dropout layers are used as a type of regularization to prevent overfitting. These will randomly sets a fraction of input units to 0 during training. This helps to prevent overfitting and reduces the overreliance on a single learned feature. A dropout rate of 10% is used here.
 
 ### Fully connected layers:
