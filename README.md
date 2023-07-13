@@ -14,8 +14,8 @@ https://docs.google.com/presentation/d/1oVR_5n-sLKSudW5DLdqL-vmx-4vkkrL3hRPnvSN9
 ### Contributors
 * Sean Evans <https://www.linkedin.com/in/sean-evans/>
 
-## Business Understanding
-We were tasked with building a Neural Network model for the purposes of recognizing handwritten letters/number and converting them to text. 
+## Business Problem
+Build a Neural Network model for the purposes of recognizing handwritten letters/number and converting them to text. 
 
 ## Business Applications
 1. The post office - helping to identify the handwritten addresses on mail items
