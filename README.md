@@ -49,7 +49,6 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
   - zoom_range=0.1: Applying a zoom transformation with a zoom range of 10%
   - horizontal_flip=False: Passed on applying horizontal flip for reasons mentionend in 'rotation_range'
   - vertical_flip=False: Passed on applying vertical flip for reasons mentionend in 'rotation_range'
-# 
 
 <div align="center">
   <img src="DisplayIMG/i_model.png" alt="Image Description" />
@@ -289,9 +288,6 @@ Other architectures have been proposed that build on these common structures add
   - yarl==1.8.1
   - ypy-websocket==0.8.2
 
-# 
-# 
-# 
 
   <div align="center">
   <img src="DisplayIMG/Data_Lung.png" alt="Image Description" />
