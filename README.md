@@ -71,13 +71,13 @@ This is followed by another BatchNormalization layer and a Dropout layer, with t
 The final Dense layer has a number of units equal to the number of classes (len(le.classes_)), and uses a softmax activation function for a multi-class classification problem.
 
 ### Architecture
-The architecture of this Convolutional Neural Network (CNN) Model, with two blocks of Conv2D, BatchNormalization, and MaxPooling2D layers, followed by two Dense layers, is a common choice and is similar to and influenced by the design of early successful Convolutional Neural Networks such as the LeNet-5, AlexNet, VGGNet, and others. The common pattern followed by these networks is a series of convolutional layers followed by pooling layers, and finally one or more fully connected layers.
+The architecture of this Convolutional Neural Network (CNN) Model, with two blocks of Conv2D, BatchNormalization, and MaxPooling2D layers, followed by two Dense layers, is a common choice and is similar to and influenced by the design of early successful Convolutional Neural Networks such as the LeNet-5, AlexNet, VGGNet. The common pattern followed by these networks is a series of convolutional layers followed by pooling layers, and finally one or more fully connected layers.
 
 -	LeNet-5: This is one of the earliest convolutional neural networks. It was primarily used for digit recognition tasks such as reading zip.
 
--	AlexNet: AlexNet was used in the ImageNet Large-Scale Visual Recognition Challenge in 2012. It significantly outperformed all the prior competitors and brought a breakthrough in the field of Computer Vision.
+-	AlexNet: Was used in the ImageNet Large-Scale Visual Recognition Challenge in 2012. It significantly outperformed all the prior competitors and brought a breakthrough in the field of Computer Vision.
 
--	VGGNet: VGGNet was the runner-up in ILSVRC 2014. Its main contribution was in showing that the depth of the network (number of layers) is a critical component for good performance.
+-	VGGNet: Was the runner-up in ILSVRC 2014. Its main contribution was in showing that the depth of the network (number of layers) is a critical component for good performance.
 
 Other architectures have been proposed that build on these common structures adding additional components, such as skip connections (ResNet), inception modules (InceptionNet), and depthwise separable convolutions (MobileNet). However, the basic structure of convolutional layers followed by pooling layers and ending in fully connected layers remains a staple in the field of Convolutional Neural Networks.
 
