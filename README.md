@@ -91,7 +91,7 @@ Other architectures have been proposed that build on these common structures add
 </div>
 
 ## Python and Module Versions
-- Python: 3.10.11 | packaged by Anaconda, Inc. 
+- Python: 3.10.11 - packaged by Anaconda, Inc. 
   - babel==2.11.0
   - bottleneck==1.3.5
   - jinja2==3.1.2
