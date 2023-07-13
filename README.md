@@ -57,21 +57,20 @@ https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-datas
 
 ## Model Description
 
-#### Convolutional and pooling layers:
+### Convolutional and pooling layers:
 First uses two blocks of Conv2D layers followed by a BatchNormalization layer, a MaxPooling2D layer, and a Dropout layer.
 Conv2D layers are extracting features from the input images by sliding a convolution filter over the input to produce a feature map. This starts with 32 filters on the first block with a size of 3x3. The number of filters is doubled to 64 on the second block.
 The BatchNormalization layers are used to accelerate the learning speed and stabilize the training process. By normalizing the input layer via adjusting and scaling the activations, each layer of a network can learn by itself and act a little more independently of the other layers.
 The MaxPooling2D layers are used to reduce the spatial dimensions (width, height) of the input image for the next convolutional layer in the network. A pool size of 2x2 is used to down sample the input by half its width and height.
 Dropout layers are used as a type of regularization to prevent overfitting. These will randomly sets a fraction of input units to 0 during training. This helps to prevent overfitting and reduces the overreliance on a single learned feature. A dropout rate of 10% is used here.
 
-#### Fully connected layers:
+### Fully connected layers:
 After the convolutional/pooling layers, the model flattens the tensor output into a vector to prepare it for the fully connected layer.
 The first Dense layer has 512 units with the ReLU activation function.
 This is followed by another BatchNormalization layer and a Dropout layer, with the same dropout rate of 10% as was used before.
 The final Dense layer has a number of units equal to the number of classes (len(le.classes_)), and uses a softmax activation function for a multi-class classification problem.
 
-#### Architecture
-
+### Architecture
 The architecture of this Convolutional Neural Network (CNN) Model, with two blocks of Conv2D, BatchNormalization, and MaxPooling2D layers, followed by two Dense layers, is a common choice and is similar to and influenced by the design of early successful Convolutional Neural Networks such as the LeNet-5, AlexNet, VGGNet, and others. The common pattern followed by these networks is a series of convolutional layers followed by pooling layers, and finally one or more fully connected layers.
 
 -	LeNet-5: This is one of the earliest convolutional neural networks. It was primarily used for digit recognition tasks such as reading zip.
